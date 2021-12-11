@@ -1,3 +1,169 @@
-body {
-  background:grey;
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} 
+
+.main{
+  width: 100%;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: 39px;
+  color: red;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+a{  
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s all ease;
+}
+
+ul{
+  margin: 0px;
+  margin-right: 100px;
+}
+
+ul li{
+  float: left;
+  padding: 0px 15px;
+  list-style: none;
+}
+
+ul li a:hover{
+  color: red;
+}
+
+.header{
+  background-image: url(/img/FIRE.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+text-align: center;
+}
+
+.content2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+text-align: left;
+}
+
+.content h1{
+  font-size: 50px;
+}
+
+.content p{
+  padding: 0px 70px;
+  font-size: 20px;
+}
+
+button{
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 6px;
+  transition: 0.5s all ease;
+}
+
+button:hover{
+  background: black;
+  color:red;
+}
+
+.overlay{
+  background: rgba(0,0,0,.5);
+  height: 89vh;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 1em auto;
+  border: 1px solid #ddd;
+  padding: 0.3em 0.6em;
+}
+.container:after, .container:before {
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+}
+.container p {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 1.5em;
+  font-style: italic;
+}
+
+.group-header {
+  float: right;
+  font-weight: 700;
+  width: 20%;
+  margin: 0.7em 0 1em 0;
+}
+.group-header span {
+  float: left;
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+
+h3 {
+  position: relative;
+  font-weight: 700;
+  margin: 0.7em 0 1em 0;
+}
+h3:after, h3:before {
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+}
+h3 span {
+  float: left;
+  width: 10%;
+  text-align: center;
+  display: block;
+}
+h3 span:first-child {
+  width: 40%;
+  text-align: left;
+}
+h3 .dots {
+  width: 40%;
+  border-bottom: 2px dotted #ccc;
+  margin-top: 0.8em;
 }
