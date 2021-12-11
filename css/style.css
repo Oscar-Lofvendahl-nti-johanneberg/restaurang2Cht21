@@ -55,6 +55,23 @@ ul li a:hover{
 
 }
 
+.header2{
+  background-image: url(/img/BBQ.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header3{
+  background-image: url(/img/STEAK.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
 .content{
   position: absolute;
   top: 50%;
@@ -102,13 +119,18 @@ button:hover{
   height: 89vh;
 }
 
+.overlay2{
+  background: rgba(0,0,0,.7);
+  height: 89vh;
+}
+
 *, *:after, *:before {
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
-  width: 50%;
+  width: 100%;
   margin: 1em auto;
   border: 1px solid #ddd;
   padding: 0.3em 0.6em;
@@ -122,7 +144,7 @@ button:hover{
 }
 .container p {
   font-size: 0.9em;
-  color: #777;
+  color: rgb(165, 165, 165);
   margin-bottom: 1.5em;
   font-style: italic;
 }
@@ -159,7 +181,7 @@ h3 span {
   display: block;
 }
 h3 span:first-child {
-  width: 40%;
+  width: 80%;
   text-align: left;
 }
 h3 .dots {
