@@ -17,6 +17,11 @@ nav{
   justify-content: space-between;
 }
 
+.logo img{
+width: 3rem;
+height: 3rem;
+}
+
 .logo a{
   font-size: 39px;
   color: red;
@@ -116,7 +121,7 @@ button:hover{
 
 .overlay{
   background: rgba(0,0,0,.5);
-  height: 89vh;
+  height: 89.2vh;
 }
 
 .overlay2{
